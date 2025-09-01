@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div>
       <input type="text" onChange={print} />
-      <button onClick={addTask}>Add</button>
+      <button onClick={addTask}>Add x</button>
 
       <ol>
         {tasks.map((t, index) => {
@@ -35,7 +35,7 @@ const App = () => {
                 onClick={() => {
                   handleDelete(index);
                 }}>
-                Delete y
+                Delete Z
               </button>
             </li>
           );
