@@ -35,7 +35,7 @@ const App = () => {
                 onClick={() => {
                   handleDelete(index);
                 }}>
-                Delete Z
+                Delete JK
               </button>
             </li>
           );
