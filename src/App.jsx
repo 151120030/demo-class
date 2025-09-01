@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div>
       <input type="text" onChange={print} />
-      <button onClick={addTask}>Add x</button>
+      <button onClick={addTask}>Add yu</button>
 
       <ol>
         {tasks.map((t, index) => {
